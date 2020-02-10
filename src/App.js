@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { withRouter } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import 'bootstrap/scss/bootstrap.scss'
+import 'bootstrap/js/src/index'
+import { renderRoutes } from 'react-router-config'
+import './App.css'
 
-function App() {
+import routes from './router/routes'
+import NavBar from './components/Navbar'
+import data from './data/data.json'
+
+function App(props) {
+  const contentNavbar = data.Navbar
+  const { location } = props
+  const path = location.pathname
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <NavBar content={contentNavbar} path={path} />
+      {renderRoutes(routes)}
     </div>
-  );
+  )
 }
 
-export default App;
+App.propTypes = {
+  location: PropTypes.objectOf(PropTypes.string).isRequired
+}
+
+export default withRouter(App)
