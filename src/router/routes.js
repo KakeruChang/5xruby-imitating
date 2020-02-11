@@ -1,6 +1,6 @@
 import React from 'react'
 import { Redirect } from 'react-router'
-import HomePage from '../components/HomePage'
+import HomePage from '../components/HomePage/HomePage'
 import Online from '../components/EmptyPages/Online'
 import ASTROCamp from '../components/EmptyPages/ASTROCamp'
 import Short from '../components/EmptyPages/Short'

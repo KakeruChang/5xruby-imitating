@@ -53,7 +53,13 @@ const Navbar = props => {
                   {title.img === 'faCompass' && (
                     <FontAwesomeIcon icon={faCompass} size='1x' />
                   )}
-                  {title.text} <span className='sr-only'>(current)</span>
+                  <span
+                    className={classNames({
+                      'ml-2': title.img === 'faGem' || title.img === 'faCompass'
+                    })}
+                  >
+                    {title.text}
+                  </span>
                 </Link>
               </li>
             )
