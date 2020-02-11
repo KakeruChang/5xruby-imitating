@@ -3,10 +3,15 @@ import carouselImg1 from '../assets/carousel/banner_astro-a839be5c.jpg'
 import carouselImg2 from '../assets/carousel/banner_imcodingit-53a9a811.jpg'
 import carouselImg3 from '../assets/carousel/banner_mokumokukai-f9ec6b54.jpg'
 import carouselImg4 from '../assets/carousel/banner_5xruby-3d66d288.jpg'
+import mainMenuImg1 from '../assets/mainmenu/feature-list-img1-0d20ab19.png'
+import mainMenuImg2 from '../assets/mainmenu/feature-list-img2-26e4ca80.png'
+import mainMenuImg3 from '../assets/mainmenu/feature-list-img3-d0a4089e.png'
+import mainMenuImg4 from '../assets/mainmenu/feature-list-img4-13321bf0.png'
 
 const Img = {
   Navbar: { img: rubyImg },
-  carouselImg: [carouselImg1, carouselImg2, carouselImg3, carouselImg4]
+  carouselImg: [carouselImg1, carouselImg2, carouselImg3, carouselImg4],
+  mainMenuImg: [mainMenuImg1, mainMenuImg2, mainMenuImg3, mainMenuImg4]
 }
 
 export default Img

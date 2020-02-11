@@ -9,6 +9,7 @@ import './App.css'
 import routes from './router/routes'
 import NavBar from './components/Navbar'
 import data from './data/data.json'
+import Img from './data/Img'
 
 function App(props) {
   const contentNavbar = data.Navbar
@@ -18,7 +19,7 @@ function App(props) {
   return (
     <div className='App'>
       <NavBar content={contentNavbar} path={path} />
-      {renderRoutes(routes)}
+      {renderRoutes(routes, { data, Img })}
     </div>
   )
 }

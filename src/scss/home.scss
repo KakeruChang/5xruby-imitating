@@ -33,6 +33,7 @@
   width: 20px;
   display: inline-block;
   margin-left: 5px;
+  cursor: pointer;
   &.active {
     border: 2px solid #fff;
     background-color: red;

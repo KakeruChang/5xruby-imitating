@@ -7,5 +7,30 @@
     { "text": "企業代訓", "link": "/training" },
     { "text": "空間租借", "link": "/space" },
     { "text": "最新消息", "link": "/news" }
-  ]
+  ],
+  "mainMenu": {
+    "title": "關於五倍紅寶石 About 5xRuby",
+    "text": [
+      {
+        "titleOn": "網頁設計",
+        "titleUnder": "前後端課程教學",
+        "content": "帶你掌握程式技能轉職工程師，程式課程從入門到進階讓你快速上手，學員好評推薦轉職課程！"
+      },
+      {
+        "titleOn": "頂尖技術",
+        "titleUnder": "網頁製作、專案開發",
+        "content": "網站開發到行動裝置 App 工程服務、系統設計開發甚至系統架設，提供專業的建議與頂尖的技術。"
+      },
+      {
+        "titleOn": "資訊軟體開發",
+        "titleUnder": "技術顧問",
+        "content": "協助您將現有人力快速打造為 Ruby/Rails 團隊，無須經歷繁瑣的人才招募就有即戰力！"
+      },
+      {
+        "titleOn": "前後端工程師",
+        "titleUnder": "社群經營",
+        "content": "Ruby 社群經營、舉辦各類活動，促進 Ruby 社群發展，歡迎前後端工程師分享交流。"
+      }
+    ]
+  }
 }
