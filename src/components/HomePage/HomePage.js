@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import Carousel from './Carousel'
 import MainMenu from './MainMenu'
+import HotLessons from './HotLesson'
 import '../../scss/home.scss'
 
 const HomePage = props => {
@@ -12,6 +13,7 @@ const HomePage = props => {
     <>
       <Carousel img={Img.carouselImg} />
       <MainMenu data={data.mainMenu} img={Img.mainMenuImg} />
+      <HotLessons data={data.hotLesson} img={Img.hotLessonImg} />
     </>
   )
 }

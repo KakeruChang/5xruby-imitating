@@ -8,7 +8,7 @@ const MainMenu = props => {
   return (
     <div className='bg-light py-5'>
       <div className='container'>
-        <h3 className='text-center mt-5 mb-4 main-menu-title'>{data.title}</h3>
+        <h3 className='text-center mt-5 mb-4'>{data.title}</h3>
         <div className='d-flex justify-content-center mb-5'>
           <span className='px-5' style={{ border: 'solid #dc3545 2px' }} />
         </div>

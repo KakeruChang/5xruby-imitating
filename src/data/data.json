@@ -32,5 +32,31 @@
         "content": "Ruby 社群經營、舉辦各類活動，促進 Ruby 社群發展，歡迎前後端工程師分享交流。"
       }
     ]
+  },
+  "hotLesson": {
+    "title": "熱門網頁設計課程推薦",
+    "content": [
+      {
+        "isRegistering": true,
+        "isNew": true,
+        "name": "工作上用得到的函數式程式設計：從觀念到實務 - 假日班",
+        "teacher": "蘇泰安 (Taian Su)",
+        "month": 2
+      },
+      {
+        "isRegistering": true,
+        "isNew": false,
+        "name": "客製化進階 RWD 手機版網頁設計班 - 假日班",
+        "teacher": "李建杭 (Amos Lee)",
+        "month": 3
+      },
+      {
+        "isRegistering": true,
+        "isNew": false,
+        "name": "Vue.js 與 Vuex 前端開發實戰課程 - 假日班",
+        "teacher": "許國政 (Kuro Hsu)",
+        "month": 3
+      }
+    ]
   }
 }
