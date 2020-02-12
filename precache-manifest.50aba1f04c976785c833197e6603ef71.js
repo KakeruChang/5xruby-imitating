@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d05f9befa9a5264982742c9f4596a24d",
+    "revision": "c4c1fa40a8366fb825414769a12cdb45",
     "url": "/5xruby-imitating/index.html"
   },
   {
-    "revision": "9eb2577b23b2bb379ac2",
+    "revision": "b074dc4a132ec43d29d3",
     "url": "/5xruby-imitating/static/css/2.765f46be.chunk.css"
   },
   {
-    "revision": "bb3a2ccaa6d1a7756ab8",
-    "url": "/5xruby-imitating/static/css/main.496ec447.chunk.css"
+    "revision": "7cdab48cd9a514c89c0a",
+    "url": "/5xruby-imitating/static/css/main.64bed204.chunk.css"
   },
   {
-    "revision": "9eb2577b23b2bb379ac2",
-    "url": "/5xruby-imitating/static/js/2.2013b1a0.chunk.js"
+    "revision": "b074dc4a132ec43d29d3",
+    "url": "/5xruby-imitating/static/js/2.d92c92ae.chunk.js"
   },
   {
     "revision": "e5af15d6e625de31c63e2413f3280ce0",
-    "url": "/5xruby-imitating/static/js/2.2013b1a0.chunk.js.LICENSE.txt"
+    "url": "/5xruby-imitating/static/js/2.d92c92ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb3a2ccaa6d1a7756ab8",
-    "url": "/5xruby-imitating/static/js/main.a83eefa4.chunk.js"
+    "revision": "7cdab48cd9a514c89c0a",
+    "url": "/5xruby-imitating/static/js/main.cecc0fb0.chunk.js"
   },
   {
     "revision": "dad5e99e78d3acb7d95b",
@@ -66,6 +66,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d32e6601f05b1803c6f127b59b318cf1",
     "url": "/5xruby-imitating/static/media/rwd-99b9e59b.d32e6601.jpg"
+  },
+  {
+    "revision": "931d4dc370bf7c7f7692f141dee2db3c",
+    "url": "/5xruby-imitating/static/media/shopmatic-92ff9dcf.931d4dc3.jpg"
+  },
+  {
+    "revision": "a9c01d19c2d6bad0515c72e9c3aa8d67",
+    "url": "/5xruby-imitating/static/media/shopmatic_go-f7b86d46.a9c01d19.png"
+  },
+  {
+    "revision": "d719da849c7cfdea389bd182067acb93",
+    "url": "/5xruby-imitating/static/media/space_next_door-4dfdfeb6.d719da84.png"
   },
   {
     "revision": "32781404189cc17eebd95d9879d32d8a",
