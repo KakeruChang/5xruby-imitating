@@ -10,12 +10,26 @@ import mainMenuImg4 from '../assets/mainmenu/feature-list-img4-13321bf0.png'
 import hotLessonImg1 from '../assets/hotlesson/functional-09be0f61.jpg'
 import hotLessonImg2 from '../assets/hotlesson/rwd-99b9e59b.jpg'
 import hotLessonImg3 from '../assets/hotlesson/vue-js-61eaa1c7.jpg'
+import recommendImg1 from '../assets/recommend/victor-3ec52916.jpg'
+import recommendImg2 from '../assets/recommend/jason-e7e95cad.jpg'
+import recommendImg3 from '../assets/recommend/felix-d1d4db69.jpg'
+import recommendImg4 from '../assets/recommend/hana-4ae009cb.jpg'
+import recommendImg5 from '../assets/recommend/johnsie-7322ca81.jpg'
+import recommendImg6 from '../assets/recommend/benlin-54e253f4.jpg'
 
 const Img = {
   Navbar: { img: rubyImg },
   carouselImg: [carouselImg1, carouselImg2, carouselImg3, carouselImg4],
   mainMenuImg: [mainMenuImg1, mainMenuImg2, mainMenuImg3, mainMenuImg4],
-  hotLessonImg: [hotLessonImg1, hotLessonImg2, hotLessonImg3]
+  hotLessonImg: [hotLessonImg1, hotLessonImg2, hotLessonImg3],
+  recommendImg: [
+    recommendImg1,
+    recommendImg2,
+    recommendImg3,
+    recommendImg4,
+    recommendImg5,
+    recommendImg6
+  ]
 }
 
 export default Img
