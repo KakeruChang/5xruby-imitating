@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0890c12278282477bae1694dde7ed31e",
+    "revision": "d05f9befa9a5264982742c9f4596a24d",
     "url": "/5xruby-imitating/index.html"
   },
   {
-    "revision": "c4fcc8e12a0629bd9c77",
+    "revision": "9eb2577b23b2bb379ac2",
     "url": "/5xruby-imitating/static/css/2.765f46be.chunk.css"
   },
   {
-    "revision": "6d845aaf437d1bce81d4",
-    "url": "/5xruby-imitating/static/css/main.7f55411f.chunk.css"
+    "revision": "bb3a2ccaa6d1a7756ab8",
+    "url": "/5xruby-imitating/static/css/main.496ec447.chunk.css"
   },
   {
-    "revision": "c4fcc8e12a0629bd9c77",
-    "url": "/5xruby-imitating/static/js/2.0fd9e83d.chunk.js"
+    "revision": "9eb2577b23b2bb379ac2",
+    "url": "/5xruby-imitating/static/js/2.2013b1a0.chunk.js"
   },
   {
     "revision": "e5af15d6e625de31c63e2413f3280ce0",
-    "url": "/5xruby-imitating/static/js/2.0fd9e83d.chunk.js.LICENSE.txt"
+    "url": "/5xruby-imitating/static/js/2.2013b1a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d845aaf437d1bce81d4",
-    "url": "/5xruby-imitating/static/js/main.8c153b61.chunk.js"
+    "revision": "bb3a2ccaa6d1a7756ab8",
+    "url": "/5xruby-imitating/static/js/main.a83eefa4.chunk.js"
   },
   {
     "revision": "dad5e99e78d3acb7d95b",
@@ -44,12 +44,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/5xruby-imitating/static/media/banner_mokumokukai-f9ec6b54.4ba58691.jpg"
   },
   {
+    "revision": "907fdfdce2884f1c981d29eac2306134",
+    "url": "/5xruby-imitating/static/media/benlin-54e253f4.907fdfdc.jpg"
+  },
+  {
+    "revision": "3d0aa1ffb9e0c6dcce486c638a4b4353",
+    "url": "/5xruby-imitating/static/media/felix-d1d4db69.3d0aa1ff.jpg"
+  },
+  {
     "revision": "8507b6159c4b238dbbebce03e4b0abb8",
     "url": "/5xruby-imitating/static/media/functional-09be0f61.8507b615.jpg"
   },
   {
+    "revision": "26053d1e4a32c53319c2117ed40eb9a5",
+    "url": "/5xruby-imitating/static/media/hana-4ae009cb.26053d1e.jpg"
+  },
+  {
+    "revision": "fb7b9176a620c09f244ecdfd936a351b",
+    "url": "/5xruby-imitating/static/media/jason-e7e95cad.fb7b9176.jpg"
+  },
+  {
     "revision": "d32e6601f05b1803c6f127b59b318cf1",
     "url": "/5xruby-imitating/static/media/rwd-99b9e59b.d32e6601.jpg"
+  },
+  {
+    "revision": "32781404189cc17eebd95d9879d32d8a",
+    "url": "/5xruby-imitating/static/media/victor-3ec52916.32781404.jpg"
   },
   {
     "revision": "f904714d8946d0d413eafb971a9a9d57",
