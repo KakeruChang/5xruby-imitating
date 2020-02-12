@@ -93,5 +93,35 @@
         "job": "連續創業家，自由工作者"
       }
     ]
+  },
+  "showcase": {
+    "title": "案例作品 Showcase",
+    "text": [
+      {
+        "title": "SpaceNextDoor",
+        "content": "Space Next Door is inspired by the sharing economy in which we hope to encourage people to put up their unused space so that users looking for personal or business storage space have better options, closer to where they need it. We are striving to build a trusted community marketplace for you to list, discover and book the nearest and best space at affordable prices."
+      },
+      {
+        "title": "Shopmatic Go app",
+        "content": "Shopmatic Go is an exciting online platform where you can create a unique and comprehensive online store for your business, in a matter of minutes."
+      },
+      {
+        "title": "跨境電子商務 Shopmatic",
+        "content": "Shopmatic manages the entire ecosystem for anyone wanting to sell online. We go the extra mile to ensure that we help you in every step of the process to grow your business online - from developing your own unique webstore, to listing you on marketplaces and social channels, to providing you insights on how to sell online."
+      }
+    ],
+    "explain": {
+      "title": "想更瞭解我們嗎？",
+      "content": [
+        { "text": "您可以看看", "isLink": false },
+        { "text": "常見問題", "isLink": true },
+        { "text": "或者直接", "isLink": false },
+        { "text": "線上洽詢", "isLink": true },
+        {
+          "text": "，會有親切的客服人員回答您的問題，也可以透過社群網站隨時關注我們的動態。",
+          "isLink": false
+        }
+      ]
+    }
   }
 }

@@ -16,6 +16,9 @@ import recommendImg3 from '../assets/recommend/felix-d1d4db69.jpg'
 import recommendImg4 from '../assets/recommend/hana-4ae009cb.jpg'
 import recommendImg5 from '../assets/recommend/johnsie-7322ca81.jpg'
 import recommendImg6 from '../assets/recommend/benlin-54e253f4.jpg'
+import showcaseImg1 from '../assets/showcase/space_next_door-4dfdfeb6.png'
+import showcaseImg2 from '../assets/showcase/shopmatic_go-f7b86d46.png'
+import showcaseImg3 from '../assets/showcase/shopmatic-92ff9dcf.jpg'
 
 const Img = {
   Navbar: { img: rubyImg },
@@ -29,7 +32,8 @@ const Img = {
     recommendImg4,
     recommendImg5,
     recommendImg6
-  ]
+  ],
+  showcaseImg: [showcaseImg1, showcaseImg2, showcaseImg3]
 }
 
 export default Img

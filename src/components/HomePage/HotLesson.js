@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const HotLesson = props => {
   const { data, img } = props
+
   return (
     <div className='py-5'>
       <div className='container'>
@@ -54,14 +55,6 @@ const HotLesson = props => {
                     </div>
                   </div>
                 </div>
-                {/* <div className='d-flex justify-content-center'>
-                  <img src={img[index]} alt='' />
-                </div>
-                <h3 className='text-center my-3'>
-                  <div>{item.titleOn}</div>
-                  <div>{item.titleUnder}</div>
-                </h3>
-                <div className='text-center'>{item.content}</div> */}
               </Link>
             )
           })}

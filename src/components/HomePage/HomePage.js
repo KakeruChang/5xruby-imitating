@@ -5,6 +5,7 @@ import Carousel from './Carousel'
 import MainMenu from './MainMenu'
 import HotLessons from './HotLesson'
 import Recommend from './Recommend'
+import Showcase from './Showcase'
 import '../../scss/home.scss'
 
 const HomePage = props => {
@@ -16,6 +17,7 @@ const HomePage = props => {
       <MainMenu data={data.mainMenu} img={Img.mainMenuImg} />
       <HotLessons data={data.hotLesson} img={Img.hotLessonImg} />
       <Recommend data={data.recommend} img={Img.recommendImg} />
+      <Showcase data={data.showcase} img={Img.showcaseImg} />
     </>
   )
 }

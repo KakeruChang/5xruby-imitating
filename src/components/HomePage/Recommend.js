@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
+import useWindowSize from '../../hooks/useWindowSize'
+import constants from '../../data/constants'
+
 const Recommend = props => {
   const { data, img } = props
+  const { width } = useWindowSize()
   let timer = null
   const [isStopped, setIsStopped] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
@@ -102,11 +106,23 @@ const Recommend = props => {
         >
           <div className='container'>
             <div className='row justify-content-center'>
-              <div className='col-2 d-flex justify-content-end'>
+              <div className='col-sm-2 col-4 d-flex justify-content-end m-0'>
                 <img src={img[index]} className='recommend-img' alt='' />
               </div>
-              <div className='col-8 text-left'>
-                <div className='pr-5 mb-3'>{item.content}</div>
+              <div className='col-sm-8 col-7 text-left'>
+                <div
+                  className={classNames(
+                    'mb-3',
+                    {
+                      'pr-5': width > constants.breakpoint.sm
+                    },
+                    {
+                      'pr-3': width > constants.breakpoint.sm
+                    }
+                  )}
+                >
+                  {item.content}
+                </div>
                 <div
                   className='text-danger font-weight-bold'
                   style={{ fontSize: '150%' }}
