@@ -6,6 +6,7 @@ import MainMenu from './MainMenu'
 import HotLessons from './HotLesson'
 import Recommend from './Recommend'
 import Showcase from './Showcase'
+import Footer from './Footer'
 import '../../scss/home.scss'
 
 const HomePage = props => {
@@ -18,6 +19,7 @@ const HomePage = props => {
       <HotLessons data={data.hotLesson} img={Img.hotLessonImg} />
       <Recommend data={data.recommend} img={Img.recommendImg} />
       <Showcase data={data.showcase} img={Img.showcaseImg} />
+      <Footer data={data.footer} img={Img.footerImg} />
     </>
   )
 }

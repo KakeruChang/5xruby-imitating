@@ -74,7 +74,7 @@ const Showcase = props => {
           >
             {combineString(data.explain.content)}
           </p>
-          <div className='col-12 row justify-content-center'>
+          <div className='col-12 d-flex justify-content-center'>
             <Link to='/' className='showcase-brand'>
               <FontAwesomeIcon icon={faFacebookF} size='2x' />
             </Link>

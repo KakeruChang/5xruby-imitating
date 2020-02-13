@@ -1,7 +1,12 @@
 {
   "Navbar": [
     { "text": "線上課程", "link": "/online", "img": "faGem" },
-    { "text": "ASTRO Camp", "link": "/astro", "img": "faCompass" },
+    {
+      "text": "ASTRO Camp",
+      "link": "/astro",
+      "img": "faCompass",
+      "state": "報名優惠中"
+    },
     { "text": "短期課程", "link": "/short" },
     { "text": "專案開發", "link": "/dev" },
     { "text": "企業代訓", "link": "/training" },
@@ -123,5 +128,27 @@
         }
       ]
     }
+  },
+  "footer": {
+    "image": ["", "找工作"],
+    "link": [
+      { "text": "關於五倍紅寶石" },
+      { "text": "媒體報導" },
+      { "text": "團隊成員" },
+      { "text": "聯絡詢價" },
+      { "text": "常見問題" },
+      { "text": "工作機會" },
+      { "text": "開源專案" },
+      { "text": "隱私權條款" },
+      { "text": "服務條款" }
+    ],
+    "tel": "02-2331-5247",
+    "time": "Mon - Fri / 09:30 - 22:00",
+    "email": "hi@5xruby.tw",
+    "address": "10046 台北市中正區衡陽路 7 號 5 樓",
+    "contact": [
+      "© 2014 - 2020 五倍紅寶石股份有限公司 (5XRUBY CO., LTD)",
+      "台北市短期補習班立案 第 7594 號"
+    ]
   }
 }

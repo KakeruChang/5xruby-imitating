@@ -15,7 +15,7 @@ const Navbar = props => {
   const { width } = useWindowSize()
 
   return (
-    <nav className='navbar navbar-expand-md navbar-light bg-light'>
+    <nav className='navbar navbar-expand-md fixed-top navbar-light bg-light'>
       <Link to='/' className='navbar-brand'>
         <img src={Img.Navbar.img} alt='5xruby' />
       </Link>
@@ -60,6 +60,11 @@ const Navbar = props => {
                   >
                     {title.text}
                   </span>
+                  {title.state && (
+                    <span className='badge badge-danger p-1 ml-2 nav-item-state  bouncing'>
+                      <span>{title.state}</span>
+                    </span>
+                  )}
                 </Link>
               </li>
             )

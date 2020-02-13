@@ -59,7 +59,7 @@ const HotLesson = props => {
             )
           })}
         </div>
-        <div className='row justify-content-center my-5'>
+        <div className='row justify-content-center my-5 mx-3'>
           <Link
             to='/#'
             className='col-md-3 col-12 py-3 btn btn-danger font-weight-bold'
