@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 
-import useWindowSize from '../../hooks/useWindowSize'
+import useWindowSize from '../hooks/useWindowSize'
 
 const Footer = props => {
   const { data, img } = props
