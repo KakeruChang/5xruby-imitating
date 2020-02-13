@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Dev = () => {
-  return <h1>Dev</h1>
+  return <h1 className='mt-lg'>Dev</h1>
 }
 
 export default Dev

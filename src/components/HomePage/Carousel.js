@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
+import useWindowSize from '../../hooks/useWindowSize'
+
 const Carousel = props => {
   const { img } = props
+  const { width } = useWindowSize()
   let timer = null
   const [isStopped, setIsStopped] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
@@ -115,9 +118,11 @@ const Carousel = props => {
   }, [activeIndex, isStopped])
 
   return (
-    <div className='carousel-wrapper'>
-      <div className='carousel-imgs'>{carouselItem(img)}</div>
-      <ul className='carousel-index'>{indicator(img.length)}</ul>
+    <div style={{ marginTop: `${width > 847 || width < 768 ? 67 : 80}px` }}>
+      <div className='carousel-wrapper'>
+        <div className='carousel-imgs'>{carouselItem(img)}</div>
+        <ul className='carousel-index'>{indicator(img.length)}</ul>
+      </div>
     </div>
   )
 }
