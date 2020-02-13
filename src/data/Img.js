@@ -21,6 +21,8 @@ import showcaseImg2 from '../assets/showcase/shopmatic_go-f7b86d46.png'
 import showcaseImg3 from '../assets/showcase/shopmatic-92ff9dcf.jpg'
 import footerImg1 from '../assets/footer/press-img-3161693e.png'
 import footerImg2 from '../assets/footer/cakeresume-8938f367.png'
+import contactImgMap from '../assets/contact/map2020-02-13.png'
+import contactImgButton from '../assets/contact/button2020-02-13.png'
 
 const Img = {
   Navbar: { img: rubyImg },
@@ -36,7 +38,8 @@ const Img = {
     recommendImg6
   ],
   showcaseImg: [showcaseImg1, showcaseImg2, showcaseImg3],
-  footerImg: [footerImg1, footerImg2]
+  footerImg: [footerImg1, footerImg2],
+  contact: { map: contactImgMap, button: contactImgButton }
 }
 
 export default Img

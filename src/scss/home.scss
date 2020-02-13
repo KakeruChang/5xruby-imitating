@@ -1,3 +1,17 @@
+// common 992~1262 80px
+.mt-nav {
+  margin-top: 67px;
+}
+@media (max-width: 847px) and(min-width: 768px) {
+  .mt-nav {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 1262px) and(min-width: 992px) {
+  .mt-nav {
+    margin-top: 80px;
+  }
+}
 // nav bar
 .nav-item-state {
   display: inline-block;
@@ -218,7 +232,8 @@
   margin-top: 10px;
   margin-right: 10px;
   &:hover {
-    color: #666;
+    color: #d90845;
+    border: solid 2px #d90845;
   }
 }
 .footer-email {
