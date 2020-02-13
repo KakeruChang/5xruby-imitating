@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/5xruby-imitating/static/css/main.64bed204.chunk.css",
-    "main.js": "/5xruby-imitating/static/js/main.cecc0fb0.chunk.js",
-    "main.js.map": "/5xruby-imitating/static/js/main.cecc0fb0.chunk.js.map",
+    "main.css": "/5xruby-imitating/static/css/main.4e356f3f.chunk.css",
+    "main.js": "/5xruby-imitating/static/js/main.f642d887.chunk.js",
+    "main.js.map": "/5xruby-imitating/static/js/main.f642d887.chunk.js.map",
     "runtime-main.js": "/5xruby-imitating/static/js/runtime-main.c068766c.js",
     "runtime-main.js.map": "/5xruby-imitating/static/js/runtime-main.c068766c.js.map",
     "static/css/2.765f46be.chunk.css": "/5xruby-imitating/static/css/2.765f46be.chunk.css",
-    "static/js/2.d92c92ae.chunk.js": "/5xruby-imitating/static/js/2.d92c92ae.chunk.js",
-    "static/js/2.d92c92ae.chunk.js.map": "/5xruby-imitating/static/js/2.d92c92ae.chunk.js.map",
+    "static/js/2.dce92653.chunk.js": "/5xruby-imitating/static/js/2.dce92653.chunk.js",
+    "static/js/2.dce92653.chunk.js.map": "/5xruby-imitating/static/js/2.dce92653.chunk.js.map",
     "index.html": "/5xruby-imitating/index.html",
-    "precache-manifest.50aba1f04c976785c833197e6603ef71.js": "/5xruby-imitating/precache-manifest.50aba1f04c976785c833197e6603ef71.js",
+    "precache-manifest.d49692c7483e0ed1e6776b6b9ffdcf7c.js": "/5xruby-imitating/precache-manifest.d49692c7483e0ed1e6776b6b9ffdcf7c.js",
     "service-worker.js": "/5xruby-imitating/service-worker.js",
     "static/css/2.765f46be.chunk.css.map": "/5xruby-imitating/static/css/2.765f46be.chunk.css.map",
-    "static/css/main.64bed204.chunk.css.map": "/5xruby-imitating/static/css/main.64bed204.chunk.css.map",
-    "static/js/2.d92c92ae.chunk.js.LICENSE.txt": "/5xruby-imitating/static/js/2.d92c92ae.chunk.js.LICENSE.txt",
+    "static/css/main.4e356f3f.chunk.css.map": "/5xruby-imitating/static/css/main.4e356f3f.chunk.css.map",
+    "static/js/2.dce92653.chunk.js.LICENSE.txt": "/5xruby-imitating/static/js/2.dce92653.chunk.js.LICENSE.txt",
     "static/media/banner_5xruby-3d66d288.jpg": "/5xruby-imitating/static/media/banner_5xruby-3d66d288.e50d06e9.jpg",
     "static/media/banner_astro-a839be5c.jpg": "/5xruby-imitating/static/media/banner_astro-a839be5c.92048da1.jpg",
     "static/media/banner_imcodingit-53a9a811.jpg": "/5xruby-imitating/static/media/banner_imcodingit-53a9a811.06fc20c2.jpg",
@@ -23,6 +23,7 @@
     "static/media/functional-09be0f61.jpg": "/5xruby-imitating/static/media/functional-09be0f61.8507b615.jpg",
     "static/media/hana-4ae009cb.jpg": "/5xruby-imitating/static/media/hana-4ae009cb.26053d1e.jpg",
     "static/media/jason-e7e95cad.jpg": "/5xruby-imitating/static/media/jason-e7e95cad.fb7b9176.jpg",
+    "static/media/press-img-3161693e.png": "/5xruby-imitating/static/media/press-img-3161693e.3eefe0b9.png",
     "static/media/rwd-99b9e59b.jpg": "/5xruby-imitating/static/media/rwd-99b9e59b.d32e6601.jpg",
     "static/media/shopmatic-92ff9dcf.jpg": "/5xruby-imitating/static/media/shopmatic-92ff9dcf.931d4dc3.jpg",
     "static/media/shopmatic_go-f7b86d46.png": "/5xruby-imitating/static/media/shopmatic_go-f7b86d46.a9c01d19.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.c068766c.js",
     "static/css/2.765f46be.chunk.css",
-    "static/js/2.d92c92ae.chunk.js",
-    "static/css/main.64bed204.chunk.css",
-    "static/js/main.cecc0fb0.chunk.js"
+    "static/js/2.dce92653.chunk.js",
+    "static/css/main.4e356f3f.chunk.css",
+    "static/js/main.f642d887.chunk.js"
   ]
 }
