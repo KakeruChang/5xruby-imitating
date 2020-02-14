@@ -3,25 +3,57 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
+import classNames from 'classnames'
 
-import '../scss/contact.scss'
+import ContactModal from './ContactModal'
+import '../../scss/contact.scss'
 
 const Contact = props => {
   const { Img, data } = props
   const [info, setInfo] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    type: '',
-    content: ''
+    name: { value: '', isEmpty: false },
+    email: { value: '', isEmpty: false },
+    phone: { value: '', isEmpty: false },
+    type: { value: '', isEmpty: false },
+    content: { value: '', isEmpty: false }
   })
+  const [isShow, setIsShow] = useState(false)
 
-  const onChangeHandler = event => {
-    const { name } = event.target
+  const checkInput = event => {
+    const { name, value, required } = event.target
     const origin = { ...info }
 
-    origin[name] = event.target.value
-    setInfo(origin)
+    if (value) {
+      if (origin[name].isEmpty) {
+        origin[name].isEmpty = false
+      }
+      origin[name].value = value
+      setInfo(origin)
+    } else if (required) {
+      origin[name].isEmpty = true
+      origin[name].value = value
+      setInfo(origin)
+    }
+  }
+
+  const openModal = event => {
+    event.preventDefault()
+    const origin = { ...info }
+    let isAnyEmpty = false
+
+    const checkList = ['name', 'email', 'phone', 'type', 'content']
+    checkList.forEach(item => {
+      if (!info[item].value) {
+        origin[item].isEmpty = true
+        isAnyEmpty = true
+      }
+    })
+
+    if (!isAnyEmpty) {
+      setIsShow(true)
+    } else {
+      setInfo(origin)
+    }
   }
 
   return (
@@ -84,44 +116,59 @@ const Contact = props => {
               <div className='form-group'>
                 <input
                   type='text'
-                  className='form-control'
+                  className={classNames('form-control', {
+                    'is-invalid': info.name.isEmpty
+                  })}
                   id='exampleFormControlInputName'
                   name='name'
-                  value={info.name}
-                  onChange={onChangeHandler}
+                  value={info.name.value}
+                  onChange={checkInput}
+                  onBlur={checkInput}
                   placeholder='名字'
+                  required
                 />
               </div>
               <div className='form-group'>
                 <input
                   type='email'
-                  className='form-control'
+                  className={classNames('form-control', {
+                    'is-invalid': info.email.isEmpty
+                  })}
                   id='exampleFormControlInputEmail'
                   name='email'
-                  value={info.email}
-                  onChange={onChangeHandler}
+                  value={info.email.value}
+                  onChange={checkInput}
+                  onBlur={checkInput}
                   placeholder='信箱'
+                  required
                 />
               </div>
               <div className='form-group'>
                 <input
                   type='text'
-                  className='form-control'
+                  className={classNames('form-control', {
+                    'is-invalid': info.phone.isEmpty
+                  })}
                   id='exampleFormControlInputTel'
                   name='phone'
-                  value={info.phone}
-                  onChange={onChangeHandler}
+                  value={info.phone.value}
+                  onChange={checkInput}
+                  onBlur={checkInput}
                   placeholder='電話'
+                  required
                 />
               </div>
               <div className='form-group'>
                 <select
-                  className='form-control'
+                  className={classNames('form-control', {
+                    'is-invalid': info.type.isEmpty
+                  })}
                   defaultValue='default'
                   name='type'
-                  onBlur={onChangeHandler}
-                  onChange={onChangeHandler}
+                  onBlur={checkInput}
+                  onChange={checkInput}
                   id='exampleFormControlSelect1'
+                  required
                 >
                   {data.contact.choice.map(item => {
                     if (item.value) {
@@ -141,13 +188,17 @@ const Contact = props => {
               </div>
               <div className='form-group'>
                 <textarea
-                  className='form-control'
+                  className={classNames('form-control', {
+                    'is-invalid': info.content.isEmpty
+                  })}
                   id='exampleFormControlTextarea1'
                   rows='5'
                   name='content'
-                  value={info.content}
-                  onChange={onChangeHandler}
+                  value={info.content.value}
+                  onChange={checkInput}
+                  onBlur={checkInput}
                   placeholder='留下你的訊息'
+                  required
                 />
               </div>
               <div className='row mb-3'>
@@ -165,6 +216,7 @@ const Contact = props => {
                 type='submit'
                 className='btn btn-danger w-100 text-center py-3'
                 style={{ fontSize: 18 }}
+                onClick={openModal}
               >
                 送出
               </button>
@@ -172,32 +224,7 @@ const Contact = props => {
           </div>
         </div>
       </div>
-      {/* <div className='container'>
-        <h3 className='text-center mt-5 mb-4'>{data.title}</h3>
-        <div className='d-flex justify-content-center mb-5'>
-          <span className='px-5' style={{ border: 'solid #dc3545 2px' }} />
-        </div>
-        <div className='row'>
-          {data.text.map((item, index) => {
-            return (
-              <Link
-                to='/#'
-                className='col-md-3 col-12 text-decoration-none text-dark'
-                key={item.titleOn}
-              >
-                <div className='d-flex justify-content-center'>
-                  <img src={img[index]} alt='' />
-                </div>
-                <h3 className='text-center my-3'>
-                  <div>{item.titleOn}</div>
-                  <div>{item.titleUnder}</div>
-                </h3>
-                <div className='text-center'>{item.content}</div>
-              </Link>
-            )
-          })}
-        </div>
-      </div> */}
+      <ContactModal info={info} isShow={isShow} setIsShow={setIsShow} />
     </div>
   )
 }
