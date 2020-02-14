@@ -59,7 +59,7 @@ const Footer = props => {
                 {data.link.map(item => {
                   return (
                     <h5 className='footer-link' key={item.text}>
-                      <Link to='/'>{item.text}</Link>
+                      <Link to={item.link}>{item.text}</Link>
                     </h5>
                   )
                 })}

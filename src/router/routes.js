@@ -1,6 +1,7 @@
 import React from 'react'
 import { Redirect } from 'react-router'
 import HomePage from '../components/HomePage/HomePage'
+import Contact from '../components/Contact/Contact'
 import Online from '../components/EmptyPages/Online'
 import ASTROCamp from '../components/EmptyPages/ASTROCamp'
 import Short from '../components/EmptyPages/Short'
@@ -14,6 +15,10 @@ const routes = [
     path: '/',
     component: HomePage,
     exact: true
+  },
+  {
+    path: '/contacts',
+    component: Contact
   },
   {
     path: '/online',
