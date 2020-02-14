@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f90267ae7fb61a8817293ebe75114c4",
+    "revision": "91cecd82212830dd303acf9586952e4f",
     "url": "/5xruby-imitating/index.html"
   },
   {
-    "revision": "dc0e2ce1f94379953ada",
+    "revision": "0bbbf848060258f2d7ec",
     "url": "/5xruby-imitating/static/css/2.765f46be.chunk.css"
   },
   {
-    "revision": "fbcaea28bed70c2e1723",
-    "url": "/5xruby-imitating/static/css/main.4e356f3f.chunk.css"
+    "revision": "e380eef53d034b0c08b1",
+    "url": "/5xruby-imitating/static/css/main.48e67a74.chunk.css"
   },
   {
-    "revision": "dc0e2ce1f94379953ada",
-    "url": "/5xruby-imitating/static/js/2.dce92653.chunk.js"
+    "revision": "0bbbf848060258f2d7ec",
+    "url": "/5xruby-imitating/static/js/2.f54d1e0c.chunk.js"
   },
   {
     "revision": "e5af15d6e625de31c63e2413f3280ce0",
-    "url": "/5xruby-imitating/static/js/2.dce92653.chunk.js.LICENSE.txt"
+    "url": "/5xruby-imitating/static/js/2.f54d1e0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbcaea28bed70c2e1723",
-    "url": "/5xruby-imitating/static/js/main.f642d887.chunk.js"
+    "revision": "e380eef53d034b0c08b1",
+    "url": "/5xruby-imitating/static/js/main.a63818c6.chunk.js"
   },
   {
     "revision": "dad5e99e78d3acb7d95b",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/5xruby-imitating/static/media/benlin-54e253f4.907fdfdc.jpg"
   },
   {
+    "revision": "24349b7684b6608abd1e16975efe65dd",
+    "url": "/5xruby-imitating/static/media/button2020-02-13.24349b76.png"
+  },
+  {
     "revision": "3d0aa1ffb9e0c6dcce486c638a4b4353",
     "url": "/5xruby-imitating/static/media/felix-d1d4db69.3d0aa1ff.jpg"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb7b9176a620c09f244ecdfd936a351b",
     "url": "/5xruby-imitating/static/media/jason-e7e95cad.fb7b9176.jpg"
+  },
+  {
+    "revision": "ddb04c4ec3598606f0e610a136e46861",
+    "url": "/5xruby-imitating/static/media/map2020-02-13.ddb04c4e.png"
   },
   {
     "revision": "3eefe0b9a1678601acea9f75fcc77caf",
