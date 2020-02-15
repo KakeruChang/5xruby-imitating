@@ -11,7 +11,7 @@
     { "text": "專案開發", "link": "/dev" },
     { "text": "企業代訓", "link": "/training" },
     { "text": "空間租借", "link": "/space" },
-    { "text": "最新消息", "link": "/news" }
+    { "text": "最新消息", "link": "/posts" }
   ],
   "mainMenu": {
     "title": "關於五倍紅寶石 About 5xRuby",
@@ -170,5 +170,9 @@
       { "text": "企業內訓", "value": "企業內訓" },
       { "text": "課程詢問", "value": "課程詢問" }
     ]
+  },
+  "post": {
+    "title": "最新消息",
+    "subTitle": "關於五倍還有更多你可以發掘的，都在這邊說給你知！"
   }
 }

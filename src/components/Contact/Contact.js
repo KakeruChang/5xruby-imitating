@@ -6,6 +6,7 @@ import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import classNames from 'classnames'
 
 import ContactModal from './ContactModal'
+// import ContactReactModal from './ContactReactModal'
 import '../../scss/contact.scss'
 
 const Contact = props => {
@@ -224,6 +225,7 @@ const Contact = props => {
           </div>
         </div>
       </div>
+      {/* <ContactReactModal info={info} isShow={isShow} setIsShow={setIsShow} /> */}
       <ContactModal info={info} isShow={isShow} setIsShow={setIsShow} />
     </div>
   )

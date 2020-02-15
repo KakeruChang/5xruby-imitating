@@ -27,10 +27,29 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: ['style-loader', 'css-loader', 'sass-loader']
       },
+      // {
+      //   test: /\.(png|svg|jpe?g|gif)$/,
+      //   exclude: /node_modules/,
+      //   use: ['file-loader']
+      // },
       {
         test: /\.(png|svg|jpe?g|gif)$/,
         exclude: /node_modules/,
-        use: ['file-loader']
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: './images/[name].[ext]',
+              limit: 40000
+            }
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true
+            }
+          }
+        ]
       }
     ]
   },

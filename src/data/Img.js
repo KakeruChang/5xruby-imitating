@@ -23,6 +23,7 @@ import footerImg1 from '../assets/footer/press-img-3161693e.png'
 import footerImg2 from '../assets/footer/cakeresume-8938f367.png'
 import contactImgMap from '../assets/contact/map2020-02-13.png'
 import contactImgButton from '../assets/contact/button2020-02-13.png'
+import postImg from '../assets/post/posts-main-photo-6b6310d7.jpg'
 
 const Img = {
   Navbar: { img: rubyImg },
@@ -39,7 +40,8 @@ const Img = {
   ],
   showcaseImg: [showcaseImg1, showcaseImg2, showcaseImg3],
   footerImg: [footerImg1, footerImg2],
-  contact: { map: contactImgMap, button: contactImgButton }
+  contact: { map: contactImgMap, button: contactImgButton },
+  post: { img: postImg }
 }
 
 export default Img
