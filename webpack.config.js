@@ -7,8 +7,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index_bundle.js',
-    publicPath: '/'
+    filename: 'index_bundle.js'
   },
   module: {
     rules: [
@@ -36,10 +35,10 @@ module.exports = {
     ]
   },
   devServer: {
+    contentBase: './dist',
     historyApiFallback: true,
     inline: true,
-    port: 3000,
-    publicPath: '/'
+    port: 3000
   },
   plugins: [
     new HtmlWebpackPlugin({
