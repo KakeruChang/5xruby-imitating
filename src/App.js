@@ -11,6 +11,8 @@ import NavBar from './components/Navbar'
 import Footer from './components/Footer'
 import data from './data/data.json'
 import Img from './data/Img'
+import { Ruby } from './context/RubyContext'
+import './scss/common.scss'
 
 function App(props) {
   const contentNavbar = data.Navbar
@@ -18,11 +20,13 @@ function App(props) {
   const path = location.pathname
 
   return (
-    <div className='App'>
-      <NavBar content={contentNavbar} path={path} />
-      {renderRoutes(routes, { data, Img })}
-      <Footer data={data.footer} img={Img.footerImg} />
-    </div>
+    <Ruby>
+      <div className='App'>
+        <NavBar content={contentNavbar} path={path} />
+        {renderRoutes(routes, { data, Img })}
+        <Footer data={data.footer} img={Img.footerImg} />
+      </div>
+    </Ruby>
   )
 }
 
