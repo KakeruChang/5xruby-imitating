@@ -2,7 +2,7 @@
   "name": "5xruby-imitating",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://KakeruChang.github.io/5xruby-imitating",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -40,14 +40,15 @@
     "node": "^13.8.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "eslint src/*.js",
     "eject": "react-scripts eject",
     "lint": "eslint src/*.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "buildw": "webpack --mode production"
   },
   "eslintConfig": {
     "extends": "react-app"
