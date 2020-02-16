@@ -41,14 +41,13 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "react-scripts build",
     "test": "eslint src/*.js",
     "eject": "react-scripts eject",
     "lint": "eslint src/*.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --mode development --open --hot",
-    "buildw": "webpack --mode production"
+    "build": "webpack --mode production"
   },
   "eslintConfig": {
     "extends": "react-app"
