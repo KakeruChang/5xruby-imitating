@@ -5,14 +5,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
 import Pagination from '../common/Pagination'
-import RubyContext from '../../context/RubyContext'
 import '../../scss/post.scss'
+import useFetchData from '../../hooks/useFetchData'
+import { RubyContext, UPDATE_POST } from '../../context/RubyContext'
 
 const Post = props => {
   const { Img, data } = props
-  const { postData } = useContext(RubyContext)
+  const { postData, error } = useFetchData()
   const [page, setPage] = useState(1)
   const [dataDisplay, setDataDisplay] = useState([])
+  const { dispatch } = useContext(RubyContext)
+
+  useEffect(() => {
+    dispatch({ type: UPDATE_POST, postData })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [postData])
 
   useEffect(() => {
     const start = (page - 1) * 4
@@ -20,6 +27,17 @@ const Post = props => {
     setDataDisplay(postData.slice(start, end))
   }, [page, postData])
 
+  if (error) {
+    return (
+      <div className='mt-lg'>
+        <div className='container'>
+          <div className='alert alert-danger' role='alert'>
+            資料載入出現問題請稍後再嘗試
+          </div>
+        </div>
+      </div>
+    )
+  }
   return (
     <div className='mt-nav'>
       <div

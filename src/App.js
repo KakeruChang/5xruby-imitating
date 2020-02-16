@@ -11,24 +11,22 @@ import NavBar from './components/Navbar'
 import Footer from './components/Footer'
 import data from './data/data.json'
 import Img from './data/Img'
-import RubyContext from './context/RubyContext'
-import useFetchData from './hooks/useFetchData'
+import { Ruby } from './context/RubyContext'
 import './scss/common.scss'
 
 function App(props) {
   const contentNavbar = data.Navbar
   const { location } = props
   const path = location.pathname
-  const sharedContext = { postData: useFetchData() }
 
   return (
-    <RubyContext.Provider value={sharedContext}>
+    <Ruby>
       <div className='App'>
         <NavBar content={contentNavbar} path={path} />
         {renderRoutes(routes, { data, Img })}
         <Footer data={data.footer} img={Img.footerImg} />
       </div>
-    </RubyContext.Provider>
+    </Ruby>
   )
 }
 
