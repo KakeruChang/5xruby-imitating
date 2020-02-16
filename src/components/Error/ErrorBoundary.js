@@ -18,13 +18,17 @@ class ErrorBoundary extends React.Component {
     if (errorInfo) {
       // Error path
       return (
-        <div>
-          <h2>資料載入出現問題請稍後再嘗試</h2>
-          <details style={{ whiteSpace: 'pre-wrap' }}>
-            {error && error.toString()}
-            <br />
-            {errorInfo.componentStack}
-          </details>
+        <div className='mt-nav'>
+          <div className='container'>
+            <div className='alert alert-danger' role='alert'>
+              資料載入出現問題請稍後再嘗試
+            </div>
+            <details className='my-3' style={{ whiteSpace: 'pre-wrap' }}>
+              {error && error.toString()}
+              <br />
+              {errorInfo.componentStack}
+            </details>
+          </div>
         </div>
       )
     }

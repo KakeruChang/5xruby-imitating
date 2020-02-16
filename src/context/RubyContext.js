@@ -8,7 +8,7 @@ export const UPDATE_POST = 'UPDATE_POST'
 const reducer = (state, action) => {
   switch (action.type) {
     case UPDATE_POST:
-      return { postData: action.postData }
+      return action.postData
     default:
       return state
   }
@@ -16,10 +16,10 @@ const reducer = (state, action) => {
 
 export const Ruby = props => {
   const { children } = props
-  const [post, dispatch] = useReducer(reducer, { postData: [] })
+  const [postData, dispatch] = useReducer(reducer, [])
 
   return (
-    <RubyContext.Provider value={{ post, dispatch }}>
+    <RubyContext.Provider value={{ postData, dispatch }}>
       {children}
     </RubyContext.Provider>
   )
