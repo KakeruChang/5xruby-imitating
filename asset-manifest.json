@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/5xruby-imitating/static/css/main.080659bd.chunk.css",
-    "main.js": "/5xruby-imitating/static/js/main.a0cb3095.chunk.js",
-    "main.js.map": "/5xruby-imitating/static/js/main.a0cb3095.chunk.js.map",
+    "main.js": "/5xruby-imitating/static/js/main.990cfebc.chunk.js",
+    "main.js.map": "/5xruby-imitating/static/js/main.990cfebc.chunk.js.map",
     "runtime-main.js": "/5xruby-imitating/static/js/runtime-main.c068766c.js",
     "runtime-main.js.map": "/5xruby-imitating/static/js/runtime-main.c068766c.js.map",
     "static/css/2.765f46be.chunk.css": "/5xruby-imitating/static/css/2.765f46be.chunk.css",
     "static/js/2.30295e76.chunk.js": "/5xruby-imitating/static/js/2.30295e76.chunk.js",
     "static/js/2.30295e76.chunk.js.map": "/5xruby-imitating/static/js/2.30295e76.chunk.js.map",
     "index.html": "/5xruby-imitating/index.html",
-    "precache-manifest.eb1ef51c58e45b00cbbca28d9e16fa87.js": "/5xruby-imitating/precache-manifest.eb1ef51c58e45b00cbbca28d9e16fa87.js",
+    "precache-manifest.ec7b959510d11ee0521b20c622fc4ddc.js": "/5xruby-imitating/precache-manifest.ec7b959510d11ee0521b20c622fc4ddc.js",
     "service-worker.js": "/5xruby-imitating/service-worker.js",
     "static/css/2.765f46be.chunk.css.map": "/5xruby-imitating/static/css/2.765f46be.chunk.css.map",
     "static/css/main.080659bd.chunk.css.map": "/5xruby-imitating/static/css/main.080659bd.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.765f46be.chunk.css",
     "static/js/2.30295e76.chunk.js",
     "static/css/main.080659bd.chunk.css",
-    "static/js/main.a0cb3095.chunk.js"
+    "static/js/main.990cfebc.chunk.js"
   ]
 }
