@@ -2,6 +2,10 @@
 
 This is a demo website which is a practice of using React Hooks to imitate 5xruby website.The author doesn't have the ownership of all the assets of this website.
 
+## Started by webpack instead of CRA
+
+[GitHub](https://github.com/KakeruChang/5xruby-webpack)
+
 ## Demo Website(Heroku)
 
 click the following link to view the demo
